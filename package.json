@@ -1,5 +1,5 @@
 {
-  "name": "i18n-nationality",
+  "name": "@enroly/i18n-nationality",
   "version": "1.1.1",
   "description": "i18n for nationality",
   "typings": "index.d.ts",
@@ -23,10 +23,6 @@
     }
   ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sourcecode911/i18n-nationality"
-  },
   "dependencies": {
     "@types/diacritics": "^1.3.1",
     "diacritics": "^1.3.0"
@@ -44,9 +40,13 @@
     "node": ">= 6"
   },
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "deploy": "npm publish"
   },
   "bugs": {
     "url": "https://github.com/sourcecode911/i18n-nationality/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
